@@ -1,0 +1,7 @@
+{
+  "name": "Shells",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
