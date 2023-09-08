@@ -1,0 +1,7 @@
+{
+  "name": "mtx-decisions-cordova",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
