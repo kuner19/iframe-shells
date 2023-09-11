@@ -21,6 +21,8 @@
     "@angular/platform-browser": "^16.0.0",
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
+    "@ionic-native/core": "^5.36.0",
+    "@ionic-native/in-app-browser": "^5.36.0",
     "@ionic/angular": "^7.0.0",
     "@ionic/cordova-builders": "^10.0.0",
     "ionicons": "^7.0.0",
@@ -47,6 +49,7 @@
     "cordova-android": "^10.1.2",
     "cordova-ios": "^6.3.0",
     "cordova-plugin-device": "2.0.2",
+    "cordova-plugin-inappbrowser": "^5.0.0",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^5.0.0",
     "cordova-plugin-splashscreen": "5.0.2",
@@ -80,7 +83,8 @@
         "DEEPLINK_SCHEME": "https",
         "DEEPLINK_HOST": "mtx-plaid.markertrax.io",
         "ANDROID_PATH_PREFIX": "/"
-      }
+      },
+      "cordova-plugin-inappbrowser": {}
     },
     "platforms": [
       "ios",

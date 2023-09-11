@@ -11,6 +11,7 @@
     <h1>
       DEMO PLAID - IFRAME
     </h1>
-    <iframe src="https://mtx-plaid.markertrax.io" frameborder="0" style="width:100%; height: 80%;"></iframe>
+    <iframe src="https://mtx-plaid.markertrax.io/index.html" id="myIframe" frameborder="0" style="width:100%; height: 80%;" sandbox="allow-scripts allow-top-navigation allow-pointer-lock allow-same-origin allow-popups"></iframe>
+    <!-- <iframe sandbox="allow-scripts allow-top-navigation allow-pointer-lock allow-same-origin allow-popups" onload="$(this).contents().find('a').on('click', function(e) {e.preventDefault(); var url = e.target.href; window.open(url, '_system', 'location=yes'); });"></iframe> -->
   </div>
 </ion-content>

@@ -11,15 +11,12 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <allow-navigation href="*" />
     <allow-navigation href="http://*/*" />
     <allow-navigation href="https://*/*" />
     <allow-navigation href="wss://*/*" />
     <allow-navigation href="ionic://localhost/*" />
     <allow-navigation href="http://localhost/*" />
-    <allow-navigation href="http://*.moolahplay.net/*" />
-    <allow-navigation href="https://*.moolahplay.net*" />
-    <allow-navigation href="*://*.moolahplay.net*" />
+    <allow-navigation href="https://*.plaid.com/*" />
     <preference name="scheme" value="app" />
     <preference name="hostname" value="moolahplay.net" />
     <preference name="ScrollEnabled" value="false" />
